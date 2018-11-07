@@ -1,0 +1,175 @@
+
+html {
+  background: #fbedda;
+}
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADERS  */
+
+.header-list h1, .header-add h1 {
+  margin-bottom: auto;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-right {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.col-right input[type="submit"],
+.header-add input[type="submit"] {
+  margin-left: auto;
+  margin-top: auto;
+  box-shadow: 4px 4px 4px -3px #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px 27px;
+}
+
+.mass-delete {
+  cursor: pointer;
+  margin-right: auto;
+  margin-top: auto;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  font-weight: bold;
+  padding: 4px 27px;
+}
+
+.header-add {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, #f2f2f2, #333, #f2f2f2);
+}
+
+/* MAIN LIST */
+
+.main-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -45px;
+}
+
+.checkbox {
+  display: block;
+}
+
+.card {
+  margin-top: 25px;
+  margin-right: 45px;
+  width: 170px;
+  height: 100px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 13px;
+  background: #ead7bd;
+}
+
+/* FORM VIEW */
+
+.main-form {
+  font-weight: bold;
+}
+.main-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-form li {
+  max-width: 250px;
+  padding-top: 20px;
+}
+
+.main-form label {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul input {
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.main-form select {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 4px 27px;
+  margin-top: 30px;
+}
+
+.product-type {
+  display: none;
+}
+
+.product-box {
+  box-sizing: border-box;
+  width: 300px;
+  border: 2px solid black;
+  background: #ead7bd;
+  margin-left: -15px;
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+.main-form p {
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.required-field {
+  padding: 0;
+	font-weight: 100;
+	color: #cf1925;
+	margin-left: 10px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
