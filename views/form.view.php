@@ -28,7 +28,7 @@
     <ul class="product-type Disc">
       <div class="product-box">
           <li><label> Size <article><input class="validate-number validate-empty" name="size" type="text"></article></label></li>
-          <p>Lorem ipsum</p>
+          <p>Please provide disc size in MB format</p>
         </div>
     </ul>
 
@@ -36,7 +36,7 @@
     <ul class="product-type Book">
       <div class="product-box">
           <li><label> Weight <article><input class="validate-number validate-empty" name="weight" type="text"></article></label></li>
-          <p>Lorem ipsum</p>
+          <p>Please provide book weight on KG format</p>
         </div>
     </ul>
 
@@ -46,7 +46,7 @@
           <li><label> Height <article><input class="validate-number validate-empty" name="height" type="text"></article></label></li>
           <li><label> Width <article><input class="validate-number validate-empty" name="width" type="text"></article></label></li>
           <li><label> Length <article><input class="validate-number validate-empty" name="length" type="text"></article></label></li>
-          <p>Please provide dimensions in HxWxLx format</p>
+          <p>Please provide furniture dimensions in HxWxLx format</p>
         </div>
     </ul>
 </form>
