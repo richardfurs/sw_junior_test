@@ -5,7 +5,7 @@
 <header>
     <div class="header-list">
         <h1>Product List</h1>
-        <section class="col-right">        
+        <section class="col-right">
               <input class="delete-btn" type="submit" value="Apply">
         </section>
     </div>

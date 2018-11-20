@@ -1,9 +1,10 @@
 <?php
 
 abstract class Products {
-    protected $sku;
-    protected $name;
-    protected $price;
+    public $sku;
+    public $name;
+    public $price;
+    public $attributes;
 
     public function getSku()
     {

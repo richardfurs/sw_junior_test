@@ -14,7 +14,7 @@ class QueryBuilder {
     public function selectAll($table)
     {
         $statement = $this->pdo->prepare(
-            "select type, sku, name, price, size, weight, height, width, length from {$table}");
+            "select type, sku, name, price, attributes from {$table}");
         $statement->execute();
 
         return $statement->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_CLASSTYPE);
@@ -23,8 +23,8 @@ class QueryBuilder {
     public function insert($pdo, $data)
     {
         $statement = $pdo->prepare(
-            "INSERT INTO mainform (type, sku, name, price, size, weight, height, width, length)
-             VALUES (:type, :sku, :name, :price, :size, :weight, :height, :width, :length)");
+            "INSERT INTO mainform (type, sku, name, price, attributes)
+             VALUES (:type, :sku, :name, :price, :attributes)");
         $result = $statement->execute($data);
 
         return $result;
